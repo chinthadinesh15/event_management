@@ -1,0 +1,4 @@
+FROM tomcat:latest
+MAINTAINER Dinesh Babu <chinthadineshbabu15@gmail.com>
+EXPOSE 8080
+COPY target/event_management.war /usr/local/tomcat/webapps/event_management.war
